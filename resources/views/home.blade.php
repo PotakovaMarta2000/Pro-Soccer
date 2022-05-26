@@ -121,11 +121,9 @@
 							<div id="tg-navigation" class="tg-navigation">
 								<div class="tg-colhalf">
                                     <ul>
-									<li>
-						<a href="{{ url('/') }}">Главная</a>
-                    </li>  
-                    
-                    <li>
+								<li class="active">
+									<a href="{{ url('/') }}"> Главная</a></li> 
+								<li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
                             <li><a href="{{ url('/players') }}">Состав</a></li>

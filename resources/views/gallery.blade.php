@@ -47,7 +47,7 @@
 			<span id="tg-close" class="tg-close fa fa-close"></span>
 			<div class="tg-colhalf">
                 <ul>
-                    <li>
+                    <li class="active">
 						<a href="{{ url('/') }}">Главная</a>
                     </li>  
                     
@@ -70,8 +70,7 @@
             </div>
             <div class="tg-colhalf">
                 <ul>
-                
-                    <li>
+            		<li>
                         <a href="{{ url('/gallery') }}">Галерея</a>
                     </li>
                 <li><a href="#myid1">Контакты</a></li>   
@@ -121,17 +120,15 @@
 							<div id="tg-navigation" class="tg-navigation">
 								<div class="tg-colhalf">
                                     <ul>
-									<li>
-						<a href="{{ url('/') }}">Главная</a>
-                    </li>  
-                    
-                    <li>
-                        <a href="#">Сборная</a>
+										<li class="active">
+											<a href="{{ url('/') }}">Главная</a>
+                    				</li>  
+                				<li>
+                        	<a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="{{ url('/players') }}">Состав</a></li>
+                        	<li><a href="{{ url('/players') }}">Состав</a></li>
                             <li><a href="{{ url('/coaches') }}">Тренерский штаб</a></li>
                         </ul>   
-                        
                     </li>
                 <li class="active">
                         <a href="#">Турниры</a>
@@ -144,8 +141,7 @@
             </div>
             <div class="tg-colhalf">
                 <ul>
-                
-                    <li>
+                	<li>
                         <a href="{{ url('/gallery') }}">Галерея</a>
                     </li>
                 <li><a href="#myid1">Контакты</a></li>
@@ -176,7 +172,6 @@
 						<ol class="tg-breadcrumb">
 							<li><a href="#">PRO SOCCER</a></li>
 							<li><a href="#">Галерея</a></li>
-							
 						</ol>
 					</div>
 				</div>
@@ -195,103 +190,95 @@
 			<section class="tg-main-section tg-soccermedia tg-haslayout">
 				<div class="container">
 					<div class="col-sm-12 col-xs-11 pull-right">
-				</div>
+						<div class="row">
+							<div class="tg-tg-soccermedia-head tg-haslayout">
+						</div>
 					</div>
-
-					<div id="tg-soccermediascrollbar" class="tg-soccermediascrollbar">
+				</div>
+			</div>
+				<div id="tg-soccermediascrollbar" class="tg-soccermediascrollbar">
 					<div id="filter-masonry" class="tg-soccermedia-content tg-haslayout">
 						<div class="masonry-grid laliga">
-							<div class="scale">
+							<div class="scale" >
 								<figure class="tg-postimg">
-									<img src="{{ asset('assets/images/gallery/img-01.jpg') }}" alt="image description">
+									<img src= "{{ asset('assets/images/gallery/img-01.jpg') }}" alt="image description" >
 								</figure>
 							</div>
 						</div>
-						
-						<div class="masonry-grid championship">
+					<div class="masonry-grid championship">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-02.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid scottishpremiership">
+					<div class="masonry-grid scottishpremiership">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-03.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid bundesliga">
+					<div class="masonry-grid bundesliga">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-04.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid bundesliga">
+					<div class="masonry-grid bundesliga">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-05.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid laliga">
+					<div class="masonry-grid laliga">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-06.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid bundesliga">
+					<div class="masonry-grid bundesliga">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-07.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid championship">
+					<div class="masonry-grid championship">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-08.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid scottishpremiership">
+					<div class="masonry-grid scottishpremiership">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-09.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid laliga">
+					<div class="masonry-grid laliga">
 							<div class="scale">
 								<figure class="tg-postimg">
 									<img src="{{ asset('assets/images/gallery/img-10.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid championship">
-							<div class="scale">
-								<figure class="tg-postimg">
-									<img src="{{ asset('assets/images/gallery/img-11.jpg') }}" alt="image description">
-								</figure>
+					<div class="masonry-grid championship">
+						<div class="scale">
+							<figure class="tg-postimg">
+								<img src="{{ asset('assets/images/gallery/img-11.jpg') }}" alt="image description">
+							</figure>
 							</div>
 						</div>
-
-						<div class="masonry-grid championship">
+					<div class="masonry-grid laliga">
 							<div class="scale">
 								<figure class="tg-postimg">
-									<img src="{{ asset('assets/images/gallery/img-01.jpg') }}" alt="image description">
+									<img src="{{ asset('assets/images/gallery/img-06.jpg') }}" alt="image description">
 								</figure>
 							</div>
 						</div>
@@ -308,11 +295,10 @@
 		<!--************************************
 				Footer Start
 		*************************************-->
-
-		<footer id="tg-footer" class="tg-footer tg-haslayout">
-			<div class="tg-haslayout tg-footerinfobox">
-				<div class="tg-bgboxone"></div>
-				<div class="tg-bgboxtwo"></div>
+<footer id="tg-footer" class="tg-footer tg-haslayout">
+	<div class="tg-haslayout tg-footerinfobox">
+		<div class="tg-bgboxone"></div>
+			<div class="tg-bgboxtwo"></div>
 				<div class="tg-footerinfo">
 					<div class="container">
 						<div class="row">
@@ -323,7 +309,6 @@
 									</div>
 								</div>
 							</div>
-								
 							<div class="col-sm-4">
 								<div class="tg-footercol">
 									<div class="tg-haslayout">

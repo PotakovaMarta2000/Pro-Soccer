@@ -4434,8 +4434,8 @@ blockquote q{
 	background:#373542;
 }
 .masonry-grid {
-	width:335px;
-	float: left;
+	width:400px;
+	float: right;
 	padding: 0;
 }
 .tg-project {
@@ -4453,8 +4453,8 @@ blockquote q{
 	
 }
 .tg-project figure .tg-playbtn{
-	width:40px;
-	height:40px;
+	width:50px;
+	height:50px;
 	background:url(../images/icon-play1.png);
 	position:absolute;
 	margin:-20px 0 0 -20px;
@@ -4529,11 +4529,12 @@ blockquote q{
 .scale {
 	display: inline-block; /* Строчно-блочный элемент */
 	overflow:hidden; /* Скрываем всё за контуром */
+
    }
    .scale img {
 	transition: 1s; /* Время эффекта */
 	display: block; /* Убираем небольшой отступ снизу */
-   }
+	}
    .scale img:hover {
 	transform: scale(1.3); /* Увеличиваем масштаб */
    }
