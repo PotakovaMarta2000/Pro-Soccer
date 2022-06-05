@@ -218,7 +218,7 @@
 
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-03.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Защитник</a>
 														<div class="tg-section-heading">
@@ -238,7 +238,7 @@
 
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-02.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Защитник</a>
 														<div class="tg-section-heading">
@@ -258,7 +258,7 @@
 	
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-01.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Защитник</a>
 														<div class="tg-section-heading">
@@ -278,7 +278,7 @@
 
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-03.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Защитник</a>
 														<div class="tg-section-heading">
@@ -299,7 +299,7 @@
 
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-02.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Полузащитник</a>
 														<div class="tg-section-heading">
@@ -319,7 +319,7 @@
 	
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-03.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Полузащитник</a>
 														<div class="tg-section-heading">
@@ -339,7 +339,7 @@
 	
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-01.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Полузащитник</a>
 														<div class="tg-section-heading">
@@ -359,7 +359,7 @@
 
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
-													<img src="images/player/img-02.jpg" alt="image description">
+													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Полузащитник</a>
 														<div class="tg-section-heading">
@@ -378,7 +378,7 @@
 											</div>
 											<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-02.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
@@ -402,7 +402,7 @@
 															    -->
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-03.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
@@ -422,7 +422,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-02.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Вратарь</a>
 													<div class="tg-section-heading">
@@ -442,7 +442,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-01.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Вратарь</a>
 													<div class="tg-section-heading">
@@ -462,7 +462,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-01.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -482,7 +482,7 @@
 										
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-02.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -502,7 +502,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-01.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -522,7 +522,7 @@
 										
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-02.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -542,7 +542,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-03.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -562,7 +562,7 @@
 											
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-01.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -582,7 +582,7 @@
 										
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-03.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
@@ -602,7 +602,7 @@
 									
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-03.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
@@ -622,7 +622,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-01.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
@@ -642,7 +642,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-03.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
@@ -662,7 +662,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-01.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
@@ -682,7 +682,7 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="images/player/img-02.jpg" alt="image description">
+												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
