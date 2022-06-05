@@ -215,7 +215,6 @@
 													</figcaption>
 												</figure>
 											</div>
-
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -230,13 +229,11 @@
 																	<b>Позиция:</b><br> Защитник<br>
 																	<b>Прибытие:</b> 01-04-2010</p>
 																</div>
-														</div>
+															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
-											</div>
-
-											<div class="swiper-slide">
+											</div><div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
@@ -250,12 +247,11 @@
 																	<b>Позиция:</b><br> Защитник<br>
 																	<b>Прибытие:</b> 01-04-2010</p>
 																</div>
-														</div>
+															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
-	
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -275,7 +271,6 @@
 													</figcaption>
 												</figure>
 											</div>
-
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -291,12 +286,10 @@
 																	<b>Прибытие:</b> 01-04-2010</p>
 																</div>
 															</div>
-															<a href="#" class="tg-theme-tag">Основной состав</a>
+														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
-											
-
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -312,11 +305,10 @@
 																	<b>Прибытие:</b> 01-04-2010</p>
 																</div>
 															</div>
-															<a href="#" class="tg-theme-tag">Основной состав</a>
+														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
-	
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -336,7 +328,6 @@
 													</figcaption>
 												</figure>
 											</div>
-	
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -356,7 +347,6 @@
 													</figcaption>
 												</figure>
 											</div>
-
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -419,8 +409,7 @@
 											</figcaption>
 										</figure>
 									</div>
-
-										<div class="swiper-slide">
+									<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
@@ -439,7 +428,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -459,7 +447,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -479,7 +466,6 @@
 												</figcaption>
 											</figure>
 										</div>
-										
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -499,7 +485,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -519,7 +504,6 @@
 												</figcaption>
 											</figure>
 										</div>
-										
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -539,7 +523,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -559,10 +542,9 @@
 												</figcaption>
 											</figure>
 										</div>
-											
 										<div class="swiper-slide">
-											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
+										<figure class="tg-postimg">
+											<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -579,8 +561,7 @@
 											</figcaption>
 										</figure>
 									</div>
-										
-										<div class="swiper-slide">
+									<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
@@ -599,7 +580,6 @@
 												</figcaption>
 											</figure>
 										</div>
-									
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -619,7 +599,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -639,7 +618,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -659,7 +637,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -679,7 +656,6 @@
 												</figcaption>
 											</figure>
 										</div>
-
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
