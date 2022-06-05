@@ -30,9 +30,7 @@ class Gallery extends Resource
      * @var array
      */
     public static $search = [
-        'id',
-        'slug',
-        'poster',
+       
     ];
 
     /**

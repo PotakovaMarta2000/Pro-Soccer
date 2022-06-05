@@ -14,25 +14,32 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $contact = \App\Models\Contact::all();
+    $news = \App\Models\News::where('is_active', 1)->get();
+    return view('home', 
+    ['news'=> $news, 'contact'=>$contact]
+);
 });
 
-Route::get('/players', function () {
-    return view('players');
-});
+Route::namespace('\App\Http\Controllers')->group (function() {
+    Route::resource('news', NewsController::class)->only([
+        'index',
+        'show'
+    ]);
 
-Route::get('/coaches', function () {
-    return view('coaches');
-});
+Route::resource('team', TeamMemberController::class)->only([
+        'index',
+        'show'
+    ]);
 
-Route::get('/match', function () {
-    return view('match');
-});
+Route::resource('match', MatchGameController::class)->only([
+        'index',
+        'show'
+    ]);
 
-Route::get('/news', function () {
-    return view('news');
-});
-
-Route::get('/gallery', function () {
-    return view('gallery');
+Route::resource('gallery', GalleryController::class)->only([
+        'index',
+        'show'
+    ]);
+   
 });

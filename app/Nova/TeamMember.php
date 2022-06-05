@@ -3,6 +3,7 @@
 namespace App\Nova;
 
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Date;
 use SebastianBergman\CodeCoverage\Report\Xml\Tests;
 use GeneaLabs\NovaFileUploadField\FileUpload;
 use Illuminate\Http\Request;
@@ -31,14 +32,12 @@ class TeamMember extends Resource
      * @var array
      */
     public static $search = [
-        'id',
         'name',
         'birth_date',
         'position',
         'start_date',
         'slug',
-        'thumbnail',
-    ];
+        ];
 
     /**
      * Get the fields displayed by the resource.
@@ -51,9 +50,9 @@ class TeamMember extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Name')->sortable(),
-            Text::make('birth_date')->sortable(),
-            Text::make('position')->sortable(),
-            Text::make('start_date')->sortable(),
+            Text::make('Birth_date')->sortable(),
+            Text::make('Position')->sortable(),
+            Date::make('Start date')->sortable(),
             Text::make('Slug')->sortable(),
             FileUpload::make("thumbnail")
             ->thumbnail(function ($image) {

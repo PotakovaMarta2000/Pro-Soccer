@@ -29,11 +29,9 @@ class Sponsor extends Resource
      * @var array
      */
     public static $search = [
-        'id',
         'name',
         'description',
-        'slug'
-    ];
+       ];
 
     /**
      * Get the fields displayed by the resource.
@@ -46,7 +44,7 @@ class Sponsor extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Name')->sortable(),
-            Text::make('Slug')->sortable(),
+            Text::make('URL')->sortable(),
             CkEditor::make('Discription')->hideFromIndex(),
         ];
     }

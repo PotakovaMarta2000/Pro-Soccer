@@ -14,7 +14,10 @@ class NewsController extends Controller
      */
     public function index()
     {
-        //
+        $news=News::where('is_active',1)->get();
+        return view('news', 
+        ['news'=>$news]
+    );
     }
 
     /**
@@ -46,7 +49,7 @@ class NewsController extends Controller
      */
     public function show(News $news)
     {
-        //
+        return $news;
     }
 
     /**

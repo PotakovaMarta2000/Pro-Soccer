@@ -12,9 +12,12 @@ class SponsorController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Sponsor $sponsor)
     {
-        //
+        $sponsor=Sponsor::all();
+        return view('sponsor', 
+        ['sponsor'=>$sponsor]
+    );
     }
 
     /**
@@ -46,7 +49,7 @@ class SponsorController extends Controller
      */
     public function show(Sponsor $sponsor)
     {
-        //
+        return $sponsor;
     }
 
     /**

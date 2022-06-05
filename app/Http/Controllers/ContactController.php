@@ -14,8 +14,12 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        $contact=Contact::all();
+        return view('contact', 
+        ['contact'=>$contact]
+    );
     }
+    
 
     /**
      * Show the form for creating a new resource.
@@ -46,7 +50,7 @@ class ContactController extends Controller
      */
     public function show(Contact $contact)
     {
-        //
+        return $contact;
     }
 
     /**
@@ -82,4 +86,5 @@ class ContactController extends Controller
     {
         //
     }
+
 }

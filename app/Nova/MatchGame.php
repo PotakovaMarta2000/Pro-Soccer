@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\DateTime;
 
 
 class MatchGame extends Resource
@@ -30,13 +31,10 @@ class MatchGame extends Resource
      * @var array
      */
     public static $search = [
-        'id',
         'title',
         'description',
         'date_time',
-        'slug',
-        'video',
-    ];
+        ];
 
     /**
      * Get the fields displayed by the resource.
@@ -49,10 +47,11 @@ class MatchGame extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Title')->sortable(),
+            Text::make('Count')->sortable(),
             CkEditor::make('Discription')->hideFromIndex(),
-            Text::make('Date_time')->sortable(),
+            DateTime::make('Date time')->sortable(),
             Text::make('Slug')->sortable(),
-            Text::make("Video")
+            Text::make('Video')->nullable(),
         ];
     }
 

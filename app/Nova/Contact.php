@@ -29,11 +29,9 @@ class Contact extends Resource
      * @var array
      */
     public static $search = [
-        'id',
         'address',
         'email',
         'phone_number',
-        'slug',
     ];
 
     /**
@@ -47,9 +45,9 @@ class Contact extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Slug')->sortable(),
-            Text::make('address')->sortable(),
-            Text::make('email')->sortable(),
-            Text::make('phone_number')->sortable(),
+            Text::make('Address')->sortable(),
+            Text::make('Email')->sortable(),
+            Text::make('Phone_number')->sortable(),
         ];
     }
 

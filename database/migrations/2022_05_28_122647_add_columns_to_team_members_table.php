@@ -13,14 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('team_members', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->date('birth_date');
-            $table->text('position');
-            $table->text('start_date');
-            $table->text('thumbnail')->nulliable;
-            $table->timestamps();
+        Schema::table('team_members', function (Blueprint $table) {
+            $table->date('start_date')->change();
+            $table->date('birth_date')->change();
         });
     }
 
@@ -31,6 +26,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('team_members');
+        Schema::table('team_members', function (Blueprint $table) {
+            $table->dropColumn('start date', 'birth date');
+        });
     }
 };

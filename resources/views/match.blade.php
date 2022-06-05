@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Pro Soccer/&nbsp;Главная</title>
+	<title>Pro Soccer/&nbsp;Матчи</title>
 	<link type="image/x-icon" rel="shortcut icon" href="{{ asset('assets/images/favicons/favicon.ico') }}">
 	<link type="image/png" sizes="16x16" rel="icon" href="{{ asset('assets/images/favicons/favicon-16x16.png') }}">
 	<link type="image/png" sizes="32x32" rel="icon" href="{{ asset('assets/images/favicons/favicon-32x32.png') }}">
@@ -40,7 +40,7 @@
 			Wrapper Start
 	*************************************-->
 	<div id="tg-wrapper" class="tg-wrapper tg-haslayout">
-		<!--************************************
+	<!--************************************
 				Mobile Menu Start
 		*************************************-->
 		<div id="tg-navigationm-mobile" class="tg-navigationm-mobile tg-navigation collapse navbar-collapse">
@@ -54,8 +54,7 @@
                     <li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="{{ url('/players') }}">Состав</a></li>
-                            <li><a href="{{ url('/coaches') }}">Тренерский штаб</a></li>
+                            <li><a href="{{ url('/team') }}">Состав</a></li>
                         </ul>   
                         
                     </li>
@@ -100,10 +99,11 @@
 								<div id="tg-addnavigationm-mobile" class="tg-addnavigationm-mobile collapse navbar-collapse">
 									<div class="tg-colhalf pull-right">
 										<nav class="tg-addnav">
-									</nav>
-								</div>
-							<div class="tg-colhalf">
-								</div>
+										</nav>
+									</div>
+									<div class="tg-colhalf">
+									
+									</div>
 								</div>
 							</nav>
 						</div> 
@@ -120,15 +120,12 @@
 							<div id="tg-navigation" class="tg-navigation">
 								<div class="tg-colhalf">
                                     <ul>
-									<li>
-						<a href="{{ url('/') }}">Главная</a>
-                    </li>  
-                    
-                    <li>
+								<li class="active">
+									<a href="{{ url('/') }}"> Главная</a></li> 
+								<li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="{{ url('/players') }}">Состав</a></li>
-                            <li><a href="{{ url('/coaches') }}">Тренерский штаб</a></li>
+                            <li><a href="{{ url('/team') }}">Состав</a></li>
                         </ul>   
                         
                     </li>
@@ -143,19 +140,18 @@
             </div>
             <div class="tg-colhalf">
                 <ul>
-                
-                    <li>
+        			<li>
                         <a href="{{ url('/gallery') }}">Галерея</a>
                     </li>
-                <li><a href="#myid1">Контакты</a></li>
-                                    </ul>
-                                </div>
-							</div>
-						</nav>
+                		<li><a href="#myid1">Контакты</a></li>
+                            </ul>
+                        </div>
 					</div>
-				</div>
+				</nav>
 			</div>
-		</header>
+		</div>
+	</div>
+</header>
 		<!--************************************
 				Header End
 		*************************************-->
@@ -208,11 +204,11 @@
 									<div class="tg-contentbox">
 										<div class="tg-section-heading"><h2><span>Предстоящие матчи</span></h2></div>
 											<div class="tg-description">
-											<p><b>PRO SOCCER- Локомотив</b> стартует 27 июня 2022 в 15:30 по МСК</p>
-											<p><b> PRO SOCCER - Чемпионы</b> стартует 31 июня 2022 в 19:30 по МСК</p>
-											<p><b> PRO SOCCER - Гладиаторы</b> стартует 05 июля 2022 в 13:00 по МСК</p>
-											<p><b> PRO SOCCER - Killer</b> стартует 10 июля 2022 в 14:30 по МСК</p>
-											<p><b> PRO SOCCER - Лига</b> стартует 15 июля 2022 в 15:30 по МСК</p>
+											<p>PRO SOCCER- Локомотив стартует 27 июня 2022 в 15:30 по МСК</p>
+											<p>PRO SOCCER - Чемпионы  стартует 31 июня 2022 в 19:30 по МСК</p>
+											<p>PRO SOCCER - Гладиаторы стартует 05 июля 2022 в 13:00 по МСК</p>
+											<p>PRO SOCCER - Killer стартует 10 июля 2022 в 14:30 по МСК</p>
+											<p>PRO SOCCER - Лига стартует 15 июля 2022 в 15:30 по МСК</p>
 											
 											<div class="tg-section-heading"><h2><span></span></h2></div>
 											</div>
@@ -320,17 +316,15 @@
 	<!--************************************
 				Footer Start
 		*************************************-->
-
 		<footer id="tg-footer" class="tg-footer tg-haslayout">
 			<div class="tg-haslayout tg-footerinfobox">
 				<div class="tg-bgboxone"></div>
-				<div class="tg-bgboxtwo"></div>
-				<div class="tg-footerinfo">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="tg-footercol">
-									
+					<div class="tg-bgboxtwo"></div>
+						<div class="tg-footerinfo">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="tg-footercol">
 											</li>
 										</ul>
 									</div>
@@ -366,7 +360,6 @@
 											<span>+44 123 456 788 - 9</span>
 										</li>
 									</ul>
-									
 								</div>
 							</div>
 						</div>
@@ -379,7 +372,7 @@
 					<nav class="tg-footernav">
 						<ul>
 							<li><a href="{{ url('/') }}">Главная</a></li>
-							<li><a href="{{ url('/players') }}">Сборная</a></li>
+							<li><a href="{{ url('/team') }}">Сборная</a></li>
 							
 							<li><a href="{{ url('/statistic') }}">Турниры</a></li>
 							<li><a href="{{ url('/gallery') }}">Галерея</a></li>
@@ -393,7 +386,7 @@
 		<!--************************************
 				Footer End
 		*************************************-->
-	</div>
+	
 	<!--************************************
 			Wrapper End
 	*************************************-->
@@ -414,4 +407,3 @@
 	<script src="js/main.js"></script>
 </body>
 </html>
-	

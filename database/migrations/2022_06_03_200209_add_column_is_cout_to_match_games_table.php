@@ -13,13 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->text('discription');
-            $table->text('content');
-            $table->string('poster')->nullable();
-            $table->timestamps();
+        Schema::table('match_games', function (Blueprint $table) {
+            $table->string('count');
         });
     }
 
@@ -30,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('posts');
+        Schema::dropIfExists('match_games');
+            
     }
 };
+

@@ -14,7 +14,10 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        //
+        $gallery=Gallery::all();
+        return view('gallery', 
+        ['gallery'=>$gallery]
+    );
     }
 
     /**
@@ -46,7 +49,7 @@ class GalleryController extends Controller
      */
     public function show(Gallery $gallery)
     {
-        //
+        return $gallery;
     }
 
     /**

@@ -14,8 +14,12 @@ class TeamMemberController extends Controller
      */
     public function index()
     {
-        //
+        $teamMember=TeamMember::where('position', 'team')->get();
+        return view('team');
     }
+    
+
+
 
     /**
      * Show the form for creating a new resource.
@@ -46,7 +50,7 @@ class TeamMemberController extends Controller
      */
     public function show(TeamMember $teamMember)
     {
-        //
+        return $teamMember;
     }
 
     /**

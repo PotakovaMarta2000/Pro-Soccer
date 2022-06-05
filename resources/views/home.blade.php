@@ -54,8 +54,7 @@
                     <li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="{{ url('/players') }}">Состав</a></li>
-                            <li><a href="{{ url('/coaches') }}">Тренерский штаб</a></li>
+                            <li><a href="{{ url('/team') }}">Состав</a></li>
                         </ul>   
                         
                     </li>
@@ -126,8 +125,7 @@
 								<li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
-                            <li><a href="{{ url('/players') }}">Состав</a></li>
-                            <li><a href="{{ url('/coaches') }}">Тренерский штаб</a></li>
+                            <li><a href="{{ url('/team') }}">Состав</a></li>
                         </ul>   
                         
                     </li>
@@ -142,19 +140,18 @@
             </div>
             <div class="tg-colhalf">
                 <ul>
-                
-                    <li>
+        			<li>
                         <a href="{{ url('/gallery') }}">Галерея</a>
                     </li>
-                <li><a href="#myid1">Контакты</a></li>
-                                    </ul>
-                                </div>
-							</div>
-						</nav>
+                		<li><a href="#myid1">Контакты</a></li>
+                            </ul>
+                        </div>
 					</div>
-				</div>
+				</nav>
 			</div>
-		</header>
+		</div>
+	</div>
+</header>
 		<!--************************************
 				Header End
 		*************************************-->
@@ -174,7 +171,6 @@
 							</figure>
 						<div class="tg-slider-content">
 						<h1>Футбoльная<br><span>сборная</span></h1> 
-						
 							</div>
 						</div>
 					</div>
@@ -199,34 +195,38 @@
 			<!--************************************
 					About Us Start
 			*************************************-->
-			<section class="tg-main-section tg-haslayout">
-				<div class="container">
-					<div class="tg-section-name">
-						<h2>Новости</h2>
-					</div>
+	<section class="tg-main-section tg-haslayout">
+			<div class="container">
+				<div class="tg-section-name">
+					<h2>Новости</h2>
+				</div>
 					<div class="col-sm-11 col-xs-11 pull-right">
 						<div class="row">
 							<div class="tg-aboutussection">
 								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12">
-										<figure>
-											<img src="{{ asset('assets/images/gt.jpg') }}" alt="image description">
-										</figure>
-									</div>
+								
+								<div class="col-md-6 col-sm-12 col-xs-12">
+									<figure>
+										<img src="{{ asset('assets/images/blog/img-06.jpg') }}" alt="">
+									</figure>
+								</div>
 									<div class="col-md-6 col-sm-12 col-xs-12">
 										<div class="tg-contentbox">
-											<div class="tg-section-heading"><h2>Суперлига-2022: самые зрелищные моменты</h2></div>
-											<div class="tg-description">
-												<p>8-й тур Суперлиги стартует 1 июля. PRO SOCCER сыграет с "Локомотивом", "Чертаново" примет ЦСКА, а "Ростов" встретится со "Звездой-2005". Матчи "Краснодар" – "Рубин" и "Зенит" – "Енисей" пройдут 18 и 19 августа.</p>
-												</div>
-											</div>
+										<div class="tg-section-heading"><h2>Россия – футбольная страна!</h2>
+									</div>
+										<div class="tg-description">
+										<p> Российский футбольный союз подвел итоги национального этапа Всероссийского смотра-конкурса проектов массового футбола «Россия – футбольная страна!». Все участники национального этапа получат денежные призы и памятные награды. Второй сезон конкурса стартовал во Всемирный день футбола и традиционно прошел в три этапа. </p>
+										<a class="tg-btn" href="{{  url('/news') }}"><span>cмотреть</span></a>
 										</div>
+										
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-			</section>
+				</div>
+			</div>
+	</section>
 			<!--************************************
 					About Us End
 			*************************************-->
@@ -245,232 +245,6 @@
 			<!--************************************
 					Video End
 			*************************************-->
-			
-		
-			<!--************************************
-					Latest Result Start
-			*************************************-->
-			<section class="tg-main-section tg-haslayout">
-				<div class="container">
-					<div class="tg-section-name">
-						<h2>Статистика</h2>
-					</div>
-					<div class="col-sm-11 col-xs-11 pull-right">
-						<div class="row">
-							<div class="tg-latestresult">
-								<div class="row">
-									<div class="col-md-8 col-sm-12 col-xs-12">
-										<div class="tab-content tg-tabscontent">
-											<div role="tabpanel" class="tab-pane active" id="one">
-												<div class="tg-matchresult">
-													<div class="tg-box">
-														<div class="tg-score"><h3>6 - 4</h3></div>
-														<div class="tg-teamscore">
-															<strong class="tg-team-logo">
-																<a href="#">
-																	<img src="{{ asset('assets/images/team-logo/logo-01.png') }}" alt="image description">
-																</a>
-															</strong>
-															<div class="tg-team-nameplusstatus">
-																<h4><a href="#">PRO SOCCER ( Победа )</a></h4>
-															</div>
-															<ul class="tg-playernameplusgoadtime">
-																<li>Роман Фенлей (15)</li>
-																<li>Мигель Беккель (19)</li>
-																<li>Джон Уинстон (39)</li>
-																
-															</ul>
-														</div>
-														<div class="tg-teamscore">
-															<strong class="tg-team-logo">
-																<a href="#">
-																	<img src="{{ asset('assets/images/team-logo/logo-02.png') }}" alt="image description">
-																</a>
-															</strong>
-															<div class="tg-team-nameplusstatus">
-																<h4><a href="#">Римляне (Поражение)</a></h4>
-															</div>
-															<ul class="tg-playernameplusgoadtime">
-																<li>Эйдан Руберг (22)</li>
-																<li>Вилберт Уинстон (27)</li>
-																<li>Вонд Берсович (42)</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<div role="tabpanel" class="tab-pane" id="seven">
-												<div class="tg-matchresult">
-													<div class="tg-box">
-														<div class="tg-score"><h3>4 - 6</h3></div>
-														<div class="tg-teamscore">
-															<strong class="tg-team-logo">
-																<a href="#">
-																	<img src="{{ asset('assets/images/team-logo/logo-01.png') }}" alt="image description">
-																</a>
-															</strong>
-															<div class="tg-team-nameplusstatus">
-																<h4><a href="#">PRO SOCCER (Победа)</a></h4>
-															</div>
-														
-														</div>
-														<div class="tg-teamscore">
-															<strong class="tg-team-logo">
-																<a href="#">
-																	<img src="{{ asset('assets/images/team-logo/logo-02.png') }}" alt="image description">
-																</a>
-															</strong>
-															<div class="tg-team-nameplusstatus">
-																<h4><a href="#">horned grogs ( Поражение )</a></h4>
-															</div>
-														
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 col-sm-12 col-xs-12">
-										<div id="tg-matchscrollbar" class="tg-matchscrollbar tg-allmatchstatus">
-											<ul class="tg-matchtabnav" role="tablist">
-												<li role="presentation" class="active">
-													<a href="#one" aria-controls="one" role="tab" data-toggle="tab">
-														<div class="tg-match">
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>win</h4>
-															</div>
-															<div class="tg-box">
-																<h3>6 - 4</h3>
-															</div>
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>lose</h4>
-															</div>
-														</div>
-													</a>
-												</li>
-												<li role="presentation">
-													<a href="#two" aria-controls="two" role="tab" data-toggle="tab">
-														<div class="tg-match">
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>win</h4>
-															</div>
-															<div class="tg-box">
-																<h3>6 - 3</h3>
-															</div>
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>lose</h4>
-															</div>
-														</div>
-													</a>
-												</li>
-												<li role="presentation">
-													<a href="#three" aria-controls="three" role="tab" data-toggle="tab">
-														<div class="tg-match">
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>win</h4>
-															</div>
-															<div class="tg-box">
-																<h3>5 - 2</h3>
-															</div>
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>lose</h4>
-															</div>
-														</div>
-													</a>
-												</li>
-												<li role="presentation">
-													<a href="#four" aria-controls="four" role="tab" data-toggle="tab">
-														<div class="tg-match">
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>win</h4>
-															</div>
-															<div class="tg-box">
-																<h3>4 - 2</h3>
-															</div>
-															<div class="tg-box">
-																<strong class="tg-teamlogo">
-																	<img src="{{ asset('assets/images/team-logo/logo-s-01.png') }}" alt="image description">
-																</strong>
-																<h4>lose</h4>
-															</div>
-														</div>
-													</a>
-												</li>
-											
-														</div>
-													</a>
-												</li>
-											</ul>
-										</div>
-									
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--************************************
-					Latest Result End
-			*************************************-->
-			<!--************************************
-					Statistics Start
-			*************************************-->
-			<section class="tg-main-section tg-haslayout tg-bgdark">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 col-xs-12">
-							<div class="tg-statistics">
-								<div class="tg-statistic tg-goals">
-									<span class="tg-icon icon-Icon1"></span>
-									<h2><span class="tg-statistic-count" data-from="0" data-to="70" data-speed="8000" data-refresh-interval="50">70</span></h2>
-									<h3>Голы</h3>
-								</div>
-								<div class="tg-statistic tg-activeplayers">
-									<span class="tg-icon icon-Icon2"></span>
-									<h2><span class="tg-statistic-count" data-from="0" data-to="30" data-speed="8000" data-refresh-interval="50">30</span></h2>
-									<h3>Игроки</h3>
-								</div>
-								<div class="tg-statistic tg-activeteams">
-									<span class="tg-icon icon-Icon3"></span>
-									<h2><span class="tg-statistic-count" data-from="0" data-to="1" data-speed="8000" data-refresh-interval="50">1</span></h2>
-									<h3>Командa</h3>
-								</div>
-								<div class="tg-statistic tg-earnedawards">
-									<span class="tg-icon icon-Icon4"></span>
-									<h2><span class="tg-statistic-count" data-from="0" data-to="57" data-speed="8000" data-refresh-interval="50">57</span></h2>
-									<h3>Награды</h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--************************************
-					Statistics End
-			*************************************-->
 			<!--************************************
 					Fixtures Start
 			*************************************-->
@@ -487,9 +261,9 @@
 										<div class="tg-contentbox">
 											<div class="tg-section-heading"><h2>Суперкубок Европы 2022</h2></div>
 											<div class="tg-description">
-												<p>6 июля 2022 в 15:30 Soccer Stadium, Dubai</p>
-												<p>18 июля 2022 в 18:30 Soccer Stadium, Dubai</p>
-												<p>20 июля 2022 в 20:30 Soccer Stadium, Dubai</p>
+												<p>PRO SOCCER- Локомотив стартует 27 июня 2022 в 15:30 </p>
+												<p> PRO SOCCER - Чемпионы стартует 31 июня 2022 в 19:30 </p>
+												<p> PRO SOCCER - Гладиаторы стартует 05 июля 2022 в 13:00 </p>
 											</div>
 										</div>
 									</div>
@@ -513,7 +287,7 @@
 																<strong class="tg-teamlogo">
 																	<img src="{{ asset('assets/images/team-logo/logo-l-02.png') }}" alt="image description">
 																</strong>
-																<h3>Римляне</h3>
+																<h3> Локомотив</h3>
 															</div>
 														</div>
 													</div>
@@ -534,7 +308,7 @@
 															<strong class="tg-teamlogo">
 																	<img src="{{ asset('assets/images/team-logo/logo-l-02.png') }}" alt="image description">
 																</strong>
-															<h3>horned grogs</h3>
+															<h3>Чемпионы</h3>
 														</div>
 													</div>
 												</div>
@@ -582,19 +356,31 @@
 								</div>
 								<div class="col-md-8 col-sm-8 col-xs-12">
 									<div class="tg-contentbox">
-										<div class="tg-section-heading"><h2>Совместная тренировка сборных</h2></div>
+									<div class="tg-section-heading"><h2>Pro soccer</h2></div>
 										<div class="tg-description">
-											<p> На открытой тренировке и спарринге национальной и молодёжной сборных команды поддерживают воспитанники детского дома «Волжский» из Рыбинска Ярославской области и ребята из PRO SOCCER, «Спартака» и ЦСКА с церебральным параличом. После финального свистка пригласим их на поле для мини-тренировки с футболистами сборных.</p>
-											<p>Конечно, в теме всех новостей о сборной. Повлиять на отношение к России в мировом футболе мы не можем. Но можем работать над собой – ещё больше, чем раньше. Хочу быть готовым к официальным матчам в любой момент – и с «Зенитом» в еврокубках, и со сборной. Когда бы это ни произошло!</p>
-											<p>Начинаем рассказывать о сегодняшнем занятии. Оно будет состоять из совместных упражнений игроков двух команд, а затем состоится спарринг, который будет носить щадящий характер. «Никаких «заруб», мы ни за что не играем. Цель в том, чтобы футболисты получили нагрузку, а тренеры смогли посмотреть на всех», – так прокомментировал задачи главный тренер национальной команды Валерий Карпин. </p>
-										</div>
-									</div>
+										<ul class="tg-detail">
+										@foreach($news as $item)
+										<li>
+											<i class="fa fa-check"></i>
+											{{ $item->title }}
+										</li>
+										@endforeach
+									</ul>
+									<ul class="tg-detail">
+									@foreach($news as $item)
+										<li>
+											<i class="fa fa-caret-right"></i>
+											{{ $item->title }}
+										</li>
+										@endforeach
+									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-			</section> 
-		</main>
+				</div>
+		</section> 
+	</main>
 			<!--************************************
 					Upcoming Match End
 			*************************************-->
@@ -606,17 +392,15 @@
 	<!--************************************
 				Footer Start
 		*************************************-->
-
 		<footer id="tg-footer" class="tg-footer tg-haslayout">
 			<div class="tg-haslayout tg-footerinfobox">
 				<div class="tg-bgboxone"></div>
-				<div class="tg-bgboxtwo"></div>
-				<div class="tg-footerinfo">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="tg-footercol">
-									
+					<div class="tg-bgboxtwo"></div>
+						<div class="tg-footerinfo">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="tg-footercol">
 											</li>
 										</ul>
 									</div>
@@ -636,23 +420,24 @@
 										<span id="myid1">КОНТАКТЫ</span>
 									</div>
 									<ul class="tg-contactinfo">
+									@foreach($contact as $item)
 										<li>
-											<i class="fa fa-home"></i>
+										<i class="fa fa-home"></i>
 											<address>
-												115172, Россия, Москва, улица Народная, дом 7 (метро «Таганская»), Дом российского футбола
+											{{ $item->address }}
 												</address>
 										</li>
 										<li>
 											<i class="fa fa-envelope-o"></i>
-											<mailto>info@domain.com</mailto>.
+											<mailto>{{ $item->email }}</mailto>.
 										</li>	
 										
 										<li>
 											<i class="fa fa-phone"></i>
-											<span>+44 123 456 788 - 9</span>
+											<span>{{ $item->phone_number }}</span>
 										</li>
+										@endforeach
 									</ul>
-									
 								</div>
 							</div>
 						</div>
@@ -665,7 +450,7 @@
 					<nav class="tg-footernav">
 						<ul>
 							<li><a href="{{ url('/') }}">Главная</a></li>
-							<li><a href="{{ url('/players') }}">Сборная</a></li>
+							<li><a href="{{ url('/team') }}">Сборная</a></li>
 							
 							<li><a href="{{ url('/statistic') }}">Турниры</a></li>
 							<li><a href="{{ url('/gallery') }}">Галерея</a></li>

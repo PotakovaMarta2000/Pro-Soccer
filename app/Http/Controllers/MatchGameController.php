@@ -12,9 +12,13 @@ class MatchGameController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(MatchGame $matchGame)
+   
     {
-        //
+        $matchGame=MatchGame::all();
+        return view('match', 
+        ['matchGame'=>$matchGame]
+    );
     }
 
     /**
@@ -46,7 +50,7 @@ class MatchGameController extends Controller
      */
     public function show(MatchGame $matchGame)
     {
-        //
+        return $matchGame;
     }
 
     /**

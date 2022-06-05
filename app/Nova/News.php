@@ -5,6 +5,7 @@ namespace App\Nova;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use BayAreaWebPro\NovaFieldCkEditor\CkEditor;
 use GeneaLabs\NovaFileUploadField\FileUpload;
@@ -30,10 +31,8 @@ class News extends Resource
      * @var array
      */
     public static $search = [
-        'id',
         'title',
         'slug',
-        'discription',
         'poster',
     ];
 
@@ -50,7 +49,8 @@ class News extends Resource
             Text::make('Title')->sortable(),
             Text::make('Slug')->sortable(),
             CkEditor::make('Discription')->hideFromIndex(),
-            FileUpload::make("Poster")
+            Boolean::make('Is_active')->sortable(),
+            FileUpload::make('Poster')
             ->thumbnail(function ($image) {
                 return $image
                     ? asset('storage/'.$image)

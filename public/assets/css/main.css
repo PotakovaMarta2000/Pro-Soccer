@@ -2232,9 +2232,9 @@ address { font-style: italic; }
 	height:150px;
 	overflow:hidden;
 	background:#f7f7f7;
-	/* pointer-events: none; 
+	 pointer-events: none; 
 	cursor: default; 
-	text-decoration: none;  */
+	text-decoration: none;  
 	  
 }
 .tg-player + .tg-player{margin:10px 0 0;}
@@ -2417,6 +2417,7 @@ address { font-style: italic; }
 	font-size:24px;
 	line-height:24px;
 }
+
 /*=============================================
 			Footer Style
 =============================================*/
@@ -4433,18 +4434,19 @@ blockquote q{
 	border-radius:0;
 	background:#373542;
 }
-.masonry-grid {
-	width:400px;
-	float: right;
+
+ .masonry-grid {
+	width:335px;
+	float: left;
 	padding: 0;
-}
+ }
 .tg-project {
 	float: left;
 	width: 100%;
 	overflow: hidden;
 	background: #000;
 	position: relative;
-}
+} 
 .tg-project figure {
 	margin: 0;
 	background:#373542;
@@ -4453,8 +4455,8 @@ blockquote q{
 	
 }
 .tg-project figure .tg-playbtn{
-	width:50px;
-	height:50px;
+	width:40px;
+	height:40px;
 	background:url(../images/icon-play1.png);
 	position:absolute;
 	margin:-20px 0 0 -20px;
@@ -4494,7 +4496,7 @@ blockquote q{
 }
 .tg-project figure:hover figcaption{bottom:0;}
 .tg-project figure:hover figcaption h3{padding-top:0;}
-.tg-project figure:hover img {opacity:0.40;}
+.tg-project figure:hover img {opacity:0.90;}
 .tg-soccermedia-content2{
 	width:100%;
 	height:auto;
@@ -4526,18 +4528,7 @@ blockquote q{
 	-webkit-box-shadow: 1px 1px 8px 2px rgba(55,53,66,0.7);
 	box-shadow: 1px 1px 8px 2px rgba(55,53,66,0.7);
 }
-.scale {
-	display: inline-block; /* Строчно-блочный элемент */
-	overflow:hidden; /* Скрываем всё за контуром */
 
-   }
-   .scale img {
-	transition: 1s; /* Время эффекта */
-	display: block; /* Убираем небольшой отступ снизу */
-	}
-   .scale img:hover {
-	transform: scale(1.3); /* Увеличиваем масштаб */
-   }
 /* =============================================
 		404 Error Style
 ============================================= */
