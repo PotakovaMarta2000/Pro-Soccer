@@ -50,9 +50,9 @@ class TeamMember extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Name')->sortable(),
-            Text::make('Birth_date')->sortable(),
+            Date::make('Birth date', 'birth_date')->sortable(),
             Text::make('Position')->sortable(),
-            Date::make('Start date')->sortable(),
+            Date::make('Start date', 'start_date')->sortable(),
             Text::make('Slug')->sortable(),
             FileUpload::make("thumbnail")
             ->thumbnail(function ($image) {

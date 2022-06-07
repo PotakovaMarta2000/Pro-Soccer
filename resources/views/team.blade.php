@@ -14,8 +14,8 @@
 	<link type="image/png" sizes="120x120" rel="icon" href="{{ asset('assets/images/favicons/favicon-120x120.png') }}">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="{{ asset('assets/apple-touch-icon.png') }}">
-	<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+	<link rel="apple-touch-icon" href="{{ asset('assets/apple-touch-icon.png') }}"">
+	<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}"">
 	<link rel="stylesheet" href="{{ asset('assets/css/normalize.css') }}">
 	<link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('assets/css/transitions.css') }}">
@@ -46,17 +46,17 @@
 		<div id="tg-navigationm-mobile" class="tg-navigationm-mobile tg-navigation collapse navbar-collapse">
 			<span id="tg-close" class="tg-close fa fa-close"></span>
 			<div class="tg-colhalf">
-                <ul>
+			<ul>
                     <li>
 						<a href="{{ url('/') }}">Главная</a>
-                    </li>  
-                    
+                    </li>
+
                     <li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
                             <li><a href="{{ url('/team') }}">Состав</a></li>
-                        </ul>   
-                        
+                        </ul>
+
                     </li>
                 <li class="active">
                         <a href="#">Турниры</a>
@@ -69,22 +69,21 @@
             </div>
             <div class="tg-colhalf">
                 <ul>
-                
+
                     <li>
                         <a href="{{ url('/gallery') }}">Галерея</a>
                     </li>
-                <li><a href="#myid1">Контакты</a></li>   
-                    
+                <li><a href="#myid1">Контакты</a></li>
+
                 </ul>
             </div>
 		</div>
 		<!--************************************
 				Mobile Menu End
 		*************************************-->
-<!--************************************
+		<!--************************************
 				Header Start
 		*************************************-->
-
 		<header id="tg-header" class="tg-header tg-haslayout">
 			<div class="container">
 				<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
@@ -102,56 +101,57 @@
 										</nav>
 									</div>
 									<div class="tg-colhalf">
-									
 									</div>
 								</div>
 							</nav>
-						</div> 
+						</div>
 						<nav id="tg-nav" class="tg-nav brand-center">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigationm-mobile">
 									<i class="fa fa-bars"></i>
 								</button>
 								<strong class="tg-logo">
-									<a href="{{ url('/') }}"><img src="{{ asset('assets/images/logo.png') }}" alt="image description"></a>
+								<a href="{{ url('/') }}"><img src="{{ asset('assets/images/logo.png') }}" alt="image description"></a>
 								</strong>
 							</div>
-						
 							<div id="tg-navigation" class="tg-navigation">
 								<div class="tg-colhalf">
                                     <ul>
-								<li class="active">
-									<a href="{{ url('/') }}"> Главная</a></li> 
-								<li>
-                        <a href="#">Сборная</a>
-                        <ul class="tg-dropdown-menu">
-                            <li><a href="{{ url('/team') }}">Состав</a></li>
-                        </ul>   
-                        
-                    </li>
-                <li class="active">
-                        <a href="#">Турниры</a>
-                        <ul class="tg-dropdown-menu">
-                            <li><a href="{{ url('/match') }}">Матчи</a></li>
-                            <li><a href="{{ url('/news') }}">Новости</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="tg-colhalf">
-                <ul>
-        			<li>
-                        <a href="{{ url('/gallery') }}">Галерея</a>
-                    </li>
-                		<li><a href="#myid1">Контакты</a></li>
-                            </ul>
-                        </div>
+                                        <li class="active">
+										<a href="{{ url('/') }}"> Главная</a></li>
+                                        </li>
+                                        <li>
+                                            <a href="#">Сборная</a>
+                                            <ul class="tg-dropdown-menu">
+											<li><a href="{{ url('/team') }}">Состав</a></li>
+
+                                            </ul>
+                                        </li>
+                                    <li>
+											<li class="active">
+												<a href="#">Турниры</a>
+												<ul class="tg-dropdown-menu">
+												<li><a href="{{ url('/match') }}">Матчи</a></li>
+                            					<li><a href="{{ url('/news') }}">Новости</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+									<div class="tg-colhalf">
+										<ul>
+
+											<li>
+											<a href="{{ url('/gallery') }}">Галерея</a>
+											</li>
+											<li><a href="#myid1">Контакты</a></li>
+										</ul>
+                                </div>
+							</div>
+						</nav>
 					</div>
-				</nav>
+				</div>
 			</div>
-		</div>
-	</div>
-</header>
+		</header>
 		<!--************************************
 				Header End
 		*************************************-->
@@ -160,7 +160,7 @@
 		*************************************-->
 		<div class="tg-banner tg-haslayout">
 			<div class="tg-imglayer">
-				<img src="images/bg-pattran.png" alt="image desctription">
+				<img src="{{ asset('assets/images/bg-pattran.png') }}" alt="image desctription">
 			</div>
 			<div class="container">
 				<div class="row">
@@ -198,8 +198,9 @@
 									<div class="swiper-wrapper">
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
-												<figcaption class="tg-img-hover">
+											<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
+
+													<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Вратарь</a>
 															<div class="tg-section-heading">
 															<h3><a href="#">Матвей Сафронов</a></h3>
@@ -208,13 +209,14 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Вратарь<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010-02-01</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
+
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -227,13 +229,15 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
-															</div>
+														</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
-											</div><div class="swiper-slide">
+											</div>
+
+											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 													<figcaption class="tg-img-hover">
@@ -245,13 +249,14 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
-															</div>
+														</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
+
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -264,13 +269,14 @@
 																	<b>Возраст:</b> 33	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
+
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -283,13 +289,14 @@
 																	<b>Возраст:</b> 30	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
 															</div>
-														<a href="#" class="tg-theme-tag">Основной состав</a>
+															<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
+
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -302,13 +309,14 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
 															</div>
-														<a href="#" class="tg-theme-tag">Основной состав</a>
+															<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
+
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -321,13 +329,14 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
+
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -340,13 +349,14 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
+
 											<div class="swiper-slide">
 												<figure class="tg-postimg">
 													<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -359,16 +369,16 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 01-04-2010</p>
+																	<b>Прибытие:</b> 2010г</p>
 																</div>
 															</div>
-														<a href="#" class="tg-theme-tag">Основной состав</a>	
+														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
-											</div>
-											<div class="swiper-slide">
+
+										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
@@ -378,17 +388,17 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br>PRO SOCCER<br>
 																<b>Позиция:</b><br> Нападающий<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
-													<a href="#" class="tg-theme-tag">Основной состав</a>		
+													<a href="#" class="tg-theme-tag">Основной состав</a>
 												</figcaption>
 											</figure>
 										</div>
-										
-						<!-- ------------------------------------------------------------------------------------------
+
+										<!-- ------------------------------------------------------------------------------------------
 										                           Запасный состав сборной
-						------------------------------------------------------------------------------------------	
+										------------------------------------------------------------------------------------------
 															    -->
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
@@ -402,14 +412,15 @@
 															<b>Возраст:</b> 31	<br>
 															<b>Сборная:</b><br> PRO SOCCER<br>
 															<b>Позиция:</b><br> Нападающий<br>
-															<b>Прибытие:</b> 01-04-2010</p>
+															<b>Прибытие:</b> 2010г</p>
 														</div>
 													</div>
 												<a href="#" class="tg-theme-tag">Основной состав</a>
 											</figcaption>
 										</figure>
 									</div>
-									<div class="swiper-slide">
+
+										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
@@ -421,13 +432,14 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Вратарь<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
-														</div>	
-													<a href="#" class="tg-theme-tag">Запасной состав</a>			
+														</div>
+													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -440,13 +452,14 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Вратарь<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
-													<a href="#" class="tg-theme-tag">Запасной состав</a>		
+													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -459,13 +472,14 @@
 																<b>Возраст:</b> 30	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -478,13 +492,14 @@
 																<b>Возраст:</b> 30	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -497,13 +512,14 @@
 																<b>Возраст:</b> 30	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -516,16 +532,17 @@
 																<b>Возраст:</b> 30	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
+											{{ asset('assets/images/player/img-03.jpg') }} alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -535,16 +552,17 @@
 																<b>Возраст:</b> 30	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
-										<figure class="tg-postimg">
-											<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
+											<figure class="tg-postimg">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Защитник</a>
 													<div class="tg-section-heading">
@@ -554,14 +572,15 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 													</div>
 												<a href="#" class="tg-theme-tag">Запасной состав</a>
 											</figcaption>
 										</figure>
 									</div>
-									<div class="swiper-slide">
+
+										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
@@ -573,16 +592,17 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
+												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
@@ -592,13 +612,14 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -611,13 +632,14 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
@@ -630,13 +652,14 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
@@ -649,13 +672,14 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Нападающий<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
+
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -668,7 +692,7 @@
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Нападающий<br>
-																<b>Прибытие:</b> 01-04-2010</p>
+																<b>Прибытие:</b> 2010г</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -677,14 +701,13 @@
 										</div>
 									</div>
 								</div>
-							</div>
 						</div>
 					</div>
+				</div>
 			</section>
 			<!--************************************
 					Top Rated Player End
 			*************************************-->
-		</main>
 			<!--************************************
 					Testimonials Start
 			*************************************-->
@@ -705,12 +728,12 @@
 											<p>Лига чемпионов УЕФА 2021/22 — 65-й розыгрыш главного футбольного клубного турнира Европы под эгидой УЕФА, а также 28-й розыгрыш с момента переименования Кубка европейских чемпионов в Лигу чемпионов УЕФА. Финальный матч был сыгран на «Эштадиу да Луш» в Лиссабоне 23 августа 2020 года. Победителем турнира в шестой раз в своей истории стала мюнхенская «Бавария», обыграв в финале «Пари Сен-Жермен». </p>
 										</div>
 										<ul class="tg-socialicons">
-										
+
 										</ul>
 									</div>
 								</div>
 								<div class="swiper-slide">
-								
+
 						</div>
 					</div>
 				</div>
@@ -812,9 +835,10 @@
 								<div class="row">
 									<div class="col-md-5 col-sm-12 col-xs-12">
 										<div class="tg-contentbox">
+
 											<div class="tg-section-heading"><h2>Наши спонсоры</h2></div>
 												<div class="tg-description">
-												<p>ALBIONE, бренд мужской одежды и аксессуаров
+													<p>ALBIONE, бренд мужской одежды и аксессуаров
 													Официальный поставщик деловой одежды сборных России
 													</p>
 													<p>Бетсити
@@ -874,12 +898,12 @@
 			<!--************************************
 					Our Sponser End
 			*************************************-->
-		
+
 		</main>
 		<!--************************************
 				Main End
 		*************************************-->
-	<!--************************************
+		<!--************************************
 				Footer Start
 		*************************************-->
 		<footer id="tg-footer" class="tg-footer tg-haslayout">
@@ -896,7 +920,7 @@
 									</div>
 								</div>
 							</div>
-								
+
 							<div class="col-sm-4">
 								<div class="tg-footercol">
 									<div class="tg-haslayout">
@@ -919,8 +943,8 @@
 										<li>
 											<i class="fa fa-envelope-o"></i>
 											<mailto>info@domain.com</mailto>.
-										</li>	
-										
+										</li>
+
 										<li>
 											<i class="fa fa-phone"></i>
 											<span>+44 123 456 788 - 9</span>
@@ -939,10 +963,10 @@
 						<ul>
 							<li><a href="{{ url('/') }}">Главная</a></li>
 							<li><a href="{{ url('/team') }}">Сборная</a></li>
-							
-							<li><a href="{{ url('/statistic') }}">Турниры</a></li>
+
+							<li><a href="{{ url('/math') }}">Матчи</a></li>
 							<li><a href="{{ url('/gallery') }}">Галерея</a></li>
-							
+
 							<li><a href="https://rfs.ru/national" target="_blank">Источник материала проекта</a></li>
 						</ul>
 					</nav>
@@ -952,11 +976,11 @@
 		<!--************************************
 				Footer End
 		*************************************-->
-	
+
 	<!--************************************
 			Wrapper End
 	*************************************-->
-	
+
 	<!--************************************
 		LightBoxes End
 	*************************************-->

@@ -26,11 +26,11 @@ Route::namespace('\App\Http\Controllers')->group (function() {
         'index',
         'show'
     ]);
-
-Route::resource('team', TeamMemberController::class)->only([
+    Route::resource('team', TeamMemberController::class)->only([
         'index',
         'show'
     ]);
+
 
 Route::resource('match', MatchGameController::class)->only([
         'index',

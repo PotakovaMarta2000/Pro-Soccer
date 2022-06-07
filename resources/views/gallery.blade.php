@@ -49,14 +49,14 @@
                 <ul>
                     <li>
 						<a href="{{ url('/') }}">Главная</a>
-                    </li>  
-                    
+                    </li>
+
                     <li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
                             <li><a href="{{ url('/team') }}">Состав</a></li>
-                        </ul>   
-                        
+                        </ul>
+
                     </li>
                 <li class="active">
                         <a href="#">Турниры</a>
@@ -69,12 +69,12 @@
             </div>
             <div class="tg-colhalf">
                 <ul>
-                
+
                     <li>
                         <a href="{{ url('/gallery') }}">Галерея</a>
                     </li>
-                <li><a href="#myid1">Контакты</a></li>   
-                    
+                <li><a href="#myid1">Контакты</a></li>
+
                 </ul>
             </div>
 		</div>
@@ -102,11 +102,11 @@
 										</nav>
 									</div>
 									<div class="tg-colhalf">
-									
+										
 									</div>
 								</div>
 							</nav>
-						</div> 
+						</div>
 						<nav id="tg-nav" class="tg-nav brand-center">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigationm-mobile">
@@ -116,18 +116,18 @@
 									<a href="{{ url('/') }}"><img src="{{ asset('assets/images/logo.png') }}" alt="image description"></a>
 								</strong>
 							</div>
-						
+
 							<div id="tg-navigation" class="tg-navigation">
 								<div class="tg-colhalf">
                                     <ul>
 								<li class="active">
-									<a href="{{ url('/') }}"> Главная</a></li> 
+									<a href="{{ url('/') }}"> Главная</a></li>
 								<li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
                             <li><a href="{{ url('/team') }}">Состав</a></li>
-                        </ul>   
-                        
+                        </ul>
+
                     </li>
                 <li class="active">
                         <a href="#">Турниры</a>
@@ -190,7 +190,7 @@
 				<div class="container">
 					<div class="col-sm-12 col-xs-12 pull-right">
 						<div class="row">
-							
+
 							<div id="filter-masonry" class="tg-soccermedia-content tg-soccermedia-content2 tg-haslayout">
 								<div class="masonry-grid laliga">
 									<div class="tg-project">
@@ -309,7 +309,7 @@
 		<!--************************************
 				Main End
 		*************************************-->
-		
+
 	<!--************************************
 				Footer Start
 		*************************************-->
@@ -327,7 +327,7 @@
 									</div>
 								</div>
 							</div>
-								
+
 							<div class="col-sm-4">
 								<div class="tg-footercol">
 									<div class="tg-haslayout">
@@ -350,8 +350,8 @@
 										<li>
 											<i class="fa fa-envelope-o"></i>
 											<mailto>info@domain.com</mailto>.
-										</li>	
-										
+										</li>
+
 										<li>
 											<i class="fa fa-phone"></i>
 											<span>+44 123 456 788 - 9</span>
@@ -370,10 +370,10 @@
 						<ul>
 							<li><a href="{{ url('/') }}">Главная</a></li>
 							<li><a href="{{ url('/team') }}">Сборная</a></li>
-							
+
 							<li><a href="{{ url('/statistic') }}">Турниры</a></li>
 							<li><a href="{{ url('/gallery') }}">Галерея</a></li>
-							
+
 							<li><a href="https://rfs.ru/national" target="_blank">Источник материала проекта</a></li>
 						</ul>
 					</nav>
@@ -383,11 +383,11 @@
 		<!--************************************
 				Footer End
 		*************************************-->
-	
+
 	<!--************************************
 			Wrapper End
 	*************************************-->
-	
+
 	<!--************************************
 		LightBoxes End
 	*************************************-->

@@ -49,14 +49,14 @@
                 <ul>
                     <li>
 						<a href="{{ url('/') }}">Главная</a>
-                    </li>  
-                    
+                    </li>
+
                     <li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
                             <li><a href="{{ url('/team') }}">Состав</a></li>
-                        </ul>   
-                        
+                        </ul>
+
                     </li>
                 <li class="active">
                         <a href="#">Турниры</a>
@@ -69,12 +69,12 @@
             </div>
             <div class="tg-colhalf">
                 <ul>
-                
+
                     <li>
                         <a href="{{ url('/gallery') }}">Галерея</a>
                     </li>
-                <li><a href="#myid1">Контакты</a></li>   
-                    
+                <li><a href="#myid1">Контакты</a></li>
+
                 </ul>
             </div>
 		</div>
@@ -102,11 +102,11 @@
 										</nav>
 									</div>
 									<div class="tg-colhalf">
-									
+
 									</div>
 								</div>
 							</nav>
-						</div> 
+						</div>
 						<nav id="tg-nav" class="tg-nav brand-center">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigationm-mobile">
@@ -116,18 +116,18 @@
 									<a href="{{ url('/') }}"><img src="{{ asset('assets/images/logo.png') }}" alt="image description"></a>
 								</strong>
 							</div>
-						
+
 							<div id="tg-navigation" class="tg-navigation">
 								<div class="tg-colhalf">
                                     <ul>
 								<li class="active">
-									<a href="{{ url('/') }}"> Главная</a></li> 
+									<a href="{{ url('/') }}"> Главная</a></li>
 								<li>
                         <a href="#">Сборная</a>
                         <ul class="tg-dropdown-menu">
                             <li><a href="{{ url('/team') }}">Состав</a></li>
-                        </ul>   
-                        
+                        </ul>
+
                     </li>
                 <li class="active">
                         <a href="#">Турниры</a>
@@ -184,7 +184,7 @@
 				Main Start
 		*************************************-->
 		<main id="tg-main" class="tg-main tg-haslayout">
-		
+
 			<!--************************************
 					Upcoming Match Start
 			*************************************-->
@@ -209,7 +209,7 @@
 											<p>PRO SOCCER - Гладиаторы стартует 05 июля 2022 в 13:00 по МСК</p>
 											<p>PRO SOCCER - Killer стартует 10 июля 2022 в 14:30 по МСК</p>
 											<p>PRO SOCCER - Лига стартует 15 июля 2022 в 15:30 по МСК</p>
-											
+
 											<div class="tg-section-heading"><h2><span></span></h2></div>
 											</div>
 										</div>
@@ -227,7 +227,7 @@
 			*************************************-->
 			<ul class="tg-tickets tg-tabnav" role="tablist">
 				<li role="presentation" class="active">
-					<div class="tg-ticket"> 
+					<div class="tg-ticket">
 						<time class="tg-matchdate" datetime="2016-05-03">27<span>июня</span></time>
 							<div class="tg-matchdetail">
 								<span class="tg-theme-tag"></span>
@@ -330,7 +330,7 @@
 									</div>
 								</div>
 							</div>
-								
+
 							<div class="col-sm-4">
 								<div class="tg-footercol">
 									<div class="tg-haslayout">
@@ -353,8 +353,8 @@
 										<li>
 											<i class="fa fa-envelope-o"></i>
 											<mailto>info@domain.com</mailto>.
-										</li>	
-										
+										</li>
+
 										<li>
 											<i class="fa fa-phone"></i>
 											<span>+44 123 456 788 - 9</span>
@@ -373,10 +373,10 @@
 						<ul>
 							<li><a href="{{ url('/') }}">Главная</a></li>
 							<li><a href="{{ url('/team') }}">Сборная</a></li>
-							
+
 							<li><a href="{{ url('/statistic') }}">Турниры</a></li>
 							<li><a href="{{ url('/gallery') }}">Галерея</a></li>
-							
+
 							<li><a href="https://rfs.ru/national" target="_blank">Источник материала проекта</a></li>
 						</ul>
 					</nav>
@@ -386,11 +386,11 @@
 		<!--************************************
 				Footer End
 		*************************************-->
-	
+
 	<!--************************************
 			Wrapper End
 	*************************************-->
-	
+
 	<!--************************************
 		LightBoxes End
 	*************************************-->
