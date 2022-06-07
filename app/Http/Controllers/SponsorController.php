@@ -15,8 +15,9 @@ class SponsorController extends Controller
     public function index(Sponsor $sponsor)
     {
         $sponsor=Sponsor::all();
+        $contacts = \App\Models\Contact::all();
         return view('sponsor', 
-        ['sponsor'=>$sponsor]
+        ['sponsor'=>$sponsor, 'contacts' => $contacts]
     );
     }
 

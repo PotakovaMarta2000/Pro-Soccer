@@ -14,10 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $contact = \App\Models\Contact::all();
+    $contacts = \App\Models\Contact::all();
     $news = \App\Models\News::where('is_active', 1)->get();
+    $lastNews = \App\Models\News::latest('created_at')->first();
+    $lastMatch = \App\Models\MatchGame::latest('created_at')->first();
+    $title = 'Главная';
     return view('home', 
-    ['news'=> $news, 'contact'=>$contact]
+    [
+        'news'=> $news,
+        'lastNews' => $lastNews,
+        'contacts'=>$contacts,
+        'lastMatch' => $lastMatch,
+        'title' => $title
+    ]
 );
 });
 
@@ -26,20 +35,19 @@ Route::namespace('\App\Http\Controllers')->group (function() {
         'index',
         'show'
     ]);
+
     Route::resource('team', TeamMemberController::class)->only([
         'index',
         'show'
     ]);
 
+    Route::resource('match', MatchGameController::class)->only([
+            'index',
+            'show'
+        ]);
 
-Route::resource('match', MatchGameController::class)->only([
-        'index',
-        'show'
-    ]);
-
-Route::resource('gallery', GalleryController::class)->only([
-        'index',
-        'show'
-    ]);
-   
+    Route::resource('gallery', GalleryController::class)->only([
+            'index',
+            'show'
+        ]);
 });

@@ -15,9 +15,11 @@ class MatchGameController extends Controller
     public function index(MatchGame $matchGame)
    
     {
-        $matchGame=MatchGame::all();
+        $matchies=MatchGame::all();
+        $contacts = \App\Models\Contact::all();
+        $title = 'Матчи';
         return view('match', 
-        ['matchGame'=>$matchGame]
+        ['matchies'=>$matchies, 'contacts' => $contacts, 'title' => $title]
     );
     }
 

@@ -47,7 +47,7 @@ class MatchGame extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Title')->sortable(),
-            CkEditor::make('Discription')->hideFromIndex(),
+            CkEditor::make('Description')->hideFromIndex(),
             DateTime::make('Date time')->sortable(),
             Text::make('Slug')->sortable(),
             Text::make('Video')->nullable(),

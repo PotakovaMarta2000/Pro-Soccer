@@ -8,14 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class TeamMember extends Model
 {
     use HasFactory;
+    protected $casts = [
+        'birth_date' => 'date',
+        'start_date' => 'date'
+    ];
+
     public function getRouteKeyName()
     {
         return 'slug';
     
     }
-        protected $casts = [
-        'birth_date' => 'date',
-        'start_date' => 'date'
-    ];
+       
 }
 

@@ -14,8 +14,18 @@ class TeamMemberController extends Controller
      */
     public function index()
     {
-        $teamMember=TeamMember::where('position', 'team')->get();
-        return view('team');
+        $players = TeamMember::where('position', '!=', 'Тренер')->orWhere('position', '!=', 'Главный тренер')->get();
+        $coaches = TeamMember::where('position', 'Тренер')->orWhere('position', 'Главный тренер')->get();
+        $contacts = \App\Models\Contact::all();
+        $title = 'Состав';
+        $sponsors = \App\Models\Sponsor::all();
+        return view('team', [
+            'players' => $players,
+            'coaches' => $coaches,
+            'contacts' => $contacts,
+            'title' => $title,
+            'sponsors' => $sponsors
+        ]);
     }
     
 

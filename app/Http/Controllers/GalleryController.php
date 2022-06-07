@@ -15,8 +15,10 @@ class GalleryController extends Controller
     public function index()
     {
         $gallery=Gallery::all();
+        $contacts = \App\Models\Contact::all();
+        $title = 'Галерея';
         return view('gallery', 
-        ['gallery'=>$gallery]
+        ['gallery'=>$gallery, 'contacts' => $contacts, 'title' => $title]
     );
     }
 

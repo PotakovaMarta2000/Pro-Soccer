@@ -15,8 +15,10 @@ class NewsController extends Controller
     public function index()
     {
         $news=News::where('is_active',1)->get();
+        $contacts = \App\Models\Contact::all();
+        $title = 'Новости';
         return view('news', 
-        ['news'=>$news]
+        ['news'=>$news, 'contacts' => $contacts, 'title' => $title]
     );
     }
 
@@ -49,7 +51,9 @@ class NewsController extends Controller
      */
     public function show(News $news)
     {
-        return $news;
+        $contacts = \App\Models\Contact::all();
+        $title = $news->title;
+        return view('news_details', ['news' => $news, 'contacts' => $contacts, 'title' => $title]);
     }
 
     /**
