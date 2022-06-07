@@ -11,5 +11,11 @@ class TeamMember extends Model
     public function getRouteKeyName()
     {
         return 'slug';
+    
     }
+        protected $casts = [
+        'birth_date' => 'date',
+        'start_date' => 'date'
+    ];
 }
+
