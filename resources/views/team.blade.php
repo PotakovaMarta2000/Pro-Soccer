@@ -199,8 +199,7 @@
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 											<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
-
-													<figcaption class="tg-img-hover">
+												<figcaption class="tg-img-hover">
 														<a href="#" class="tg-theme-tag">Вратарь</a>
 															<div class="tg-section-heading">
 															<h3><a href="#">Матвей Сафронов</a></h3>
@@ -229,8 +228,8 @@
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 2010г</p>
-																</div>
+																	<b>Прибытие:</b> 2010-02-01</p>
+															</div>
 														</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
@@ -245,12 +244,12 @@
 														<div class="tg-section-heading">
 															<h3><a href="#">Алекс Селихов</a></h3>
 															<div class="tg-description">
-																<p><b>Дата рождения:</b> <br> 15 августа 1985г<br>
+																<p><b>Дата рождения:</b> <br>15-08-1985<br>
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 2010г</p>
-																</div>
+																	<b>Прибытие:</b> 2010-02-01</p>
+															</div>
 														</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
@@ -265,11 +264,11 @@
 														<div class="tg-section-heading">
 															<h3><a href="#">Кирилл Заика</a></h3>
 															<div class="tg-description">
-																<p><b>Дата рождения:</b> <br> 15 июня 1987г<br>
+																<p><b>Дата рождения:</b> <br> 1987-06-05<br>
 																	<b>Возраст:</b> 33	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 2010г</p>
+																	<b>Прибытие:</b> 2010-02-01</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
@@ -285,14 +284,14 @@
 														<div class="tg-section-heading">
 															<h3><a href="#">Даниил Круговой</a></h3>
 															<div class="tg-description">
-																<p><b>Дата рождения:</b> <br> 15 августа 1986г<br>
+																<p><b>Дата рождения:</b> <br> 1986-08-15<br>
 																	<b>Возраст:</b> 30	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Защитник<br>
-																	<b>Прибытие:</b> 2010г</p>
+																	<b>Прибытие:</b> 2010-02-01</p>
 																</div>
 															</div>
-															<a href="#" class="tg-theme-tag">Основной состав</a>
+														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
@@ -305,14 +304,14 @@
 														<div class="tg-section-heading">
 															<h3><a href="#">Ден Глебов</a></h3>
 															<div class="tg-description">
-																<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+																<p><b>Дата рождения:</b> <br> 1985-04-01<br>
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 2010г</p>
+																	<b>Прибытие:</b> 2010-02-01</p>
 																</div>
 															</div>
-															<a href="#" class="tg-theme-tag">Основной состав</a>
+														<a href="#" class="tg-theme-tag">Основной состав</a>
 													</figcaption>
 												</figure>
 											</div>
@@ -325,11 +324,11 @@
 														<div class="tg-section-heading">
 															<h3><a href="#">Лимхан Бакаев</a></h3>
 															<div class="tg-description">
-																<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+																<p><b>Дата рождения:</b> <br> 1985-04-01<br>
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 2010г</p>
+																	<b>Прибытие:</b> 2010-02-01</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
@@ -345,11 +344,11 @@
 														<div class="tg-section-heading">
 															<h3><a href="#">Дмитрий Баринов</a></h3>
 															<div class="tg-description">
-																<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+																<p><b>Дата рождения:</b> <br> 1985-04-01<br>
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 2010г</p>
+																	<b>Прибытие:</b> 2010-02-01</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
@@ -365,11 +364,11 @@
 														<div class="tg-section-heading">
 															<h3><a href="#">Александр Ерохин</a></h3>
 															<div class="tg-description">
-																<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+																<p><b>Дата рождения:</b> <br> 1985-04-01<br>
 																	<b>Возраст:</b> 31	<br>
 																	<b>Сборная:</b><br> PRO SOCCER<br>
 																	<b>Позиция:</b><br> Полузащитник<br>
-																	<b>Прибытие:</b> 2010г</p>
+																	<b>Прибытие:</b> 2010-02-01</p>
 																</div>
 															</div>
 														<a href="#" class="tg-theme-tag">Основной состав</a>
@@ -378,17 +377,17 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
 														<h3><a href="#">Иван Сергеев</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 3 марта 1985г<br>
+															<p><b>Дата рождения:</b> <br> 2022-03-03<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br>PRO SOCCER<br>
 																<b>Позиция:</b><br> Нападающий<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Основной состав</a>
@@ -396,23 +395,19 @@
 											</figure>
 										</div>
 
-										<!-- ------------------------------------------------------------------------------------------
-										                           Запасный состав сборной
-										------------------------------------------------------------------------------------------
-															    -->
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
 														<h3><a href="#">Федор Ом </a></h3>
 														<div class="tg-description">
-														<p><b>Дата рождения:</b> <br> 13 февраля 1985г<br>
+														<p><b>Дата рождения:</b> <br> 1985-02-13<br>
 															<b>Возраст:</b> 31	<br>
 															<b>Сборная:</b><br> PRO SOCCER<br>
 															<b>Позиция:</b><br> Нападающий<br>
-															<b>Прибытие:</b> 2010г</p>
+															<b>Прибытие:</b> 2010-02-01</p>
 														</div>
 													</div>
 												<a href="#" class="tg-theme-tag">Основной состав</a>
@@ -420,6 +415,9 @@
 										</figure>
 									</div>
 
+									<!-- ------------------------------------------------------------------------------------------
+										                    Запасный состав сборной
+									------------------------------------------------------------------------------------------->
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
@@ -428,11 +426,11 @@
 													<div class="tg-section-heading">
 														<h3><a href="#">Алекс Селихов</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 15 августа 1985г<br>
+															<p><b>Дата рождения:</b> <br> 1985-02-13<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Вратарь<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -442,17 +440,17 @@
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Вратарь</a>
 													<div class="tg-section-heading">
 														<h3><a href="#">Антон Шунин</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 14 августа 1985г<br>
+															<p><b>Дата рождения:</b> <br> 1985-08-14<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Вратарь<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -468,11 +466,11 @@
 													<div class="tg-section-heading">
 														<h3><a href="#">Макс Осипенко</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 15 августа 1986г<br>
+															<p><b>Дата рождения:</b> <br> 1985-02-10<br>
 																<b>Возраст:</b> 30	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -488,111 +486,111 @@
 													<div class="tg-section-heading">
 														<h3><a href="#">Илья Самошников</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 15 августа 1986г<br>
+															<p><b>Дата рождения:</b> <br> 1986-03-13<br>
 																<b>Возраст:</b> 30	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b>2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
 												</figcaption>
 											</figure>
 										</div>
-
-										<div class="swiper-slide">
-											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
-												<figcaption class="tg-img-hover">
-													<a href="#" class="tg-theme-tag">Защитник</a>
-													<div class="tg-section-heading">
-														<h3><a href="#">Макс Осипенко</a></h3>
-														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 15 августа 1986г<br>
-																<b>Возраст:</b> 30	<br>
-																<b>Сборная:</b><br> PRO SOCCER<br>
-																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 2010г</p>
-															</div>
-														</div>
-													<a href="#" class="tg-theme-tag">Запасной состав</a>
-												</figcaption>
-											</figure>
-										</div>
-
-										<div class="swiper-slide">
-											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-02.jpg') }}" alt="image description">
-												<figcaption class="tg-img-hover">
-													<a href="#" class="tg-theme-tag">Защитник</a>
-													<div class="tg-section-heading">
-														<h3><a href="#">Алекс Сатормин</a></h3>
-														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 15 августа 1986г<br>
-																<b>Возраст:</b> 30	<br>
-																<b>Сборная:</b><br> PRO SOCCER<br>
-																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 2010г</p>
-															</div>
-														</div>
-													<a href="#" class="tg-theme-tag">Запасной состав</a>
-												</figcaption>
-											</figure>
-										</div>
-
-										<div class="swiper-slide">
-											<figure class="tg-postimg">
-											{{ asset('assets/images/player/img-03.jpg') }} alt="image description">
-												<figcaption class="tg-img-hover">
-													<a href="#" class="tg-theme-tag">Защитник</a>
-													<div class="tg-section-heading">
-														<h3><a href="#">Дмитрий Чистяков</a></h3>
-														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 15 августа 1986г<br>
-																<b>Возраст:</b> 30	<br>
-																<b>Сборная:</b><br> PRO SOCCER<br>
-																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 2010г</p>
-															</div>
-														</div>
-													<a href="#" class="tg-theme-tag">Запасной состав</a>
-												</figcaption>
-											</figure>
-										</div>
-
-										<div class="swiper-slide">
-											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
-												<figcaption class="tg-img-hover">
-													<a href="#" class="tg-theme-tag">Защитник</a>
-													<div class="tg-section-heading">
-														<h3><a href="#">Алекс Ионов</a></h3>
-														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 2 мая 1985г<br>
-																<b>Возраст:</b> 31	<br>
-																<b>Сборная:</b><br> PRO SOCCER<br>
-																<b>Позиция:</b><br> Защитник<br>
-																<b>Прибытие:</b> 2010г</p>
-															</div>
-													</div>
-												<a href="#" class="tg-theme-tag">Запасной состав</a>
-											</figcaption>
-										</figure>
-									</div>
 
 										<div class="swiper-slide">
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
+													<a href="#" class="tg-theme-tag">Защитник</a>
+													<div class="tg-section-heading">
+														<h3><a href="#">Макс Осипенко</a></h3>
+														<div class="tg-description">
+															<p><b>Дата рождения:</b> <br> 1985-02-13<br>
+																<b>Возраст:</b> 30	<br>
+																<b>Сборная:</b><br> PRO SOCCER<br>
+																<b>Позиция:</b><br> Защитник<br>
+																<b>Прибытие:</b> 2010-02-01</p>
+															</div>
+														</div>
+													<a href="#" class="tg-theme-tag">Запасной состав</a>
+												</figcaption>
+											</figure>
+										</div>
+
+										<div class="swiper-slide">
+											<figure class="tg-postimg">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
+												<figcaption class="tg-img-hover">
+													<a href="#" class="tg-theme-tag">Защитник</a>
+													<div class="tg-section-heading">
+														<h3><a href="#">Алекс Сатормин</a></h3>
+														<div class="tg-description">
+															<p><b>Дата рождения:</b> <br> 1987-02-13<br>
+																<b>Возраст:</b> 30	<br>
+																<b>Сборная:</b><br> PRO SOCCER<br>
+																<b>Позиция:</b><br> Защитник<br>
+																<b>Прибытие:</b> 2010-02-01</p>
+															</div>
+														</div>
+													<a href="#" class="tg-theme-tag">Запасной состав</a>
+												</figcaption>
+											</figure>
+										</div>
+
+										<div class="swiper-slide">
+											<figure class="tg-postimg">
+											<img src="{{ asset('assets/images/player/img-02.jpg') }} alt="image description">
+												<figcaption class="tg-img-hover">
+													<a href="#" class="tg-theme-tag">Защитник</a>
+													<div class="tg-section-heading">
+														<h3><a href="#">Дмитрий Чистяков</a></h3>
+														<div class="tg-description">
+															<p><b>Дата рождения:</b> <br> 1985-05-13<br>
+																<b>Возраст:</b> 30	<br>
+																<b>Сборная:</b><br> PRO SOCCER<br>
+																<b>Позиция:</b><br> Защитник<br>
+																<b>Прибытие:</b> 2010-02-01</p>
+															</div>
+														</div>
+													<a href="#" class="tg-theme-tag">Запасной состав</a>
+												</figcaption>
+											</figure>
+										</div>
+
+										<div class="swiper-slide">
+											<figure class="tg-postimg">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
+												<figcaption class="tg-img-hover">
+													<a href="#" class="tg-theme-tag">Защитник</a>
+													<div class="tg-section-heading">
+														<h3><a href="#">Алекс Ионов</a></h3>
+														<div class="tg-description">
+															<p><b>Дата рождения:</b> <br> 1983-02-13<br>
+																<b>Возраст:</b> 31	<br>
+																<b>Сборная:</b><br> PRO SOCCER<br>
+																<b>Позиция:</b><br> Защитник<br>
+																<b>Прибытие:</b> 2010-02-01</p>
+															</div>
+														</div>
+													<a href="#" class="tg-theme-tag">Запасной состав</a>
+												</figcaption>
+											</figure>
+										</div>
+
+										<div class="swiper-slide">
+											<figure class="tg-postimg">
+												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
+												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
 														<h3><a href="#">Ден Фомин</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+															<p><b>Дата рождения:</b> <br> 1986-02-14<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -608,31 +606,11 @@
 													<div class="tg-section-heading">
 														<h3><a href="#">Арсен Захарян</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+															<p><b>Дата рождения:</b> <br> 1985-02-10<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 2010г</p>
-															</div>
-														</div>
-													<a href="#" class="tg-theme-tag">Запасной состав</a>
-												</figcaption>
-											</figure>
-										</div>
-
-										<div class="swiper-slide">
-											<figure class="tg-postimg">
-												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
-												<figcaption class="tg-img-hover">
-													<a href="#" class="tg-theme-tag">Полузащитник</a>
-													<div class="tg-section-heading">
-														<h3><a href="#">Антон Зинько</a></h3>
-														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
-																<b>Возраст:</b> 31	<br>
-																<b>Сборная:</b><br> PRO SOCCER<br>
-																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -646,13 +624,13 @@
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
-														<h3><a href="#">Далер Кузяев</a></h3>
+														<h3><a href="#">Антон Зинько</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+															<p><b>Дата рождения:</b> <br> 1987-02-13<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Полузащитник<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -664,15 +642,15 @@
 											<figure class="tg-postimg">
 												<img src="{{ asset('assets/images/player/img-01.jpg') }}" alt="image description">
 												<figcaption class="tg-img-hover">
-													<a href="#" class="tg-theme-tag">Нападающий</a>
+													<a href="#" class="tg-theme-tag">Полузащитник</a>
 													<div class="tg-section-heading">
-														<h3><a href="#">Андрей Мостовой</a></h3>
+														<h3><a href="#">Далер Кузяев</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+															<p><b>Дата рождения:</b> <br> 1985-02-11<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
-																<b>Позиция:</b><br> Нападающий<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Позиция:</b><br> Полузащитник<br>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -686,13 +664,33 @@
 												<figcaption class="tg-img-hover">
 													<a href="#" class="tg-theme-tag">Нападающий</a>
 													<div class="tg-section-heading">
-														<h3><a href="#">Влад Сарвелли</a></h3>
+														<h3><a href="#">Андрей Мостовой</a></h3>
 														<div class="tg-description">
-															<p><b>Дата рождения:</b> <br> 1 апреля 1985г<br>
+															<p><b>Дата рождения:</b> <br> 1985-02-09<br>
 																<b>Возраст:</b> 31	<br>
 																<b>Сборная:</b><br> PRO SOCCER<br>
 																<b>Позиция:</b><br> Нападающий<br>
-																<b>Прибытие:</b> 2010г</p>
+																<b>Прибытие:</b> 2010-02-01</p>
+															</div>
+														</div>
+													<a href="#" class="tg-theme-tag">Запасной состав</a>
+												</figcaption>
+											</figure>
+										</div>
+
+										<div class="swiper-slide">
+											<figure class="tg-postimg">
+												<img src="{{ asset('assets/images/player/img-03.jpg') }}" alt="image description">
+												<figcaption class="tg-img-hover">
+													<a href="#" class="tg-theme-tag">Нападающий</a>
+													<div class="tg-section-heading">
+														<h3><a href="#">Влад Сарвелли</a></h3>
+														<div class="tg-description">
+															<p><b>Дата рождения:</b> <br> 1987-02-07<br>
+																<b>Возраст:</b> 31	<br>
+																<b>Сборная:</b><br> PRO SOCCER<br>
+																<b>Позиция:</b><br> Нападающий<br>
+																<b>Прибытие:</b> 2010-02-01</p>
 															</div>
 														</div>
 													<a href="#" class="tg-theme-tag">Запасной состав</a>
@@ -701,9 +699,9 @@
 										</div>
 									</div>
 								</div>
+							</div>
 						</div>
 					</div>
-				</div>
 			</section>
 			<!--************************************
 					Top Rated Player End
@@ -835,7 +833,6 @@
 								<div class="row">
 									<div class="col-md-5 col-sm-12 col-xs-12">
 										<div class="tg-contentbox">
-
 											<div class="tg-section-heading"><h2>Наши спонсоры</h2></div>
 												<div class="tg-description">
 													<p>ALBIONE, бренд мужской одежды и аксессуаров
